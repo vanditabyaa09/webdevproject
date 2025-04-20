@@ -1,5 +1,5 @@
 import { useEffect, useState, useTransition } from "react";
-import { getCountryData } from "../api/postApi";
+import { getCountryData } from "../api/postApi.json";
 import { Loader } from "../components/UI/Loader";
 import { CountryCard } from "../components/Layout/CountryCard";
 
