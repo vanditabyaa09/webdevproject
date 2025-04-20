@@ -5,7 +5,7 @@ import { TbMailPlus } from "react-icons/tb";
 
 import { NavLink } from "react-router-dom";
 
-export const Footers = () => {
+export const Footer = () => {
     const footerIcon = {
         MdPlace: <MdPlace />,
         IoCallSharp: <IoCallSharp />,
@@ -35,8 +35,8 @@ export const Footers = () => {
                         <div className="copyright-text">
                             <p>
                                 Copyright &copy; 2024, All Right Reserved
-                                <NavLink to="https://thapatechnical.shop/" target="_blank">
-                                    ThapaTechnical
+                                <NavLink to="https://www.google.com/maps/@12.8462945,77.6650655,3866m/data=!3m1!1e3?entry=ttu&g_ep=EgoyMDI1MDQxNi4xIKXMDSoASAFQAw%3D%3D" target="_blank">
+                                    Locate Us
                                 </NavLink>
                             </p>
                         </div>
@@ -49,20 +49,13 @@ export const Footers = () => {
 
                                 <li>
                                     <NavLink
-                                        to="https://www.instagram.com/thapatechnical/"
+                                        to="https://www.instagram.com/v._.dwivedi/"
                                         target="_blank"
                                     >
                                         Social
                                     </NavLink>
                                 </li>
-                                <li>
-                                    <NavLink
-                                        to="https://thapatechnical.shop/source-code"
-                                        target="_blank"
-                                    >
-                                        Source Code
-                                    </NavLink>
-                                </li>
+
                                 <li>
                                     <NavLink to="/contact">Contact</NavLink>
                                 </li>
